@@ -15,10 +15,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
-            <TextView
+            <Button
                 android:layout_width="90dp"
                 android:layout_height="90dp"
-                android:background="@drawable/circulo" />
+                android:layout_gravity="left"
+                android:background="@drawable/circulo"
+                app:icon="@drawable/ic_launcher_background"
+                app:iconGravity="textTop"
+                app:iconSize="30dp"
+                app:iconTint="#4CAF50" />
+
 
             <TableLayout>
                 <TableRow>
