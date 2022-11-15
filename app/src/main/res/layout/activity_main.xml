@@ -23,7 +23,8 @@
                 app:icon="@drawable/ic_launcher_background"
                 app:iconGravity="textTop"
                 app:iconSize="30dp"
-                app:iconTint="#4CAF50" />
+                app:iconTint="#4CAF50"
+                app:backgroundTint="@null"/>
 
 
             <TableLayout>
